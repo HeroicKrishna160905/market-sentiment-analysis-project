@@ -13,14 +13,15 @@ Next, we incorporate **SEC earnings call transcripts** to analyze financial stat
  save the sentiment data in a file,
  we proceed to plot sentiment vs live market price changes (in s&p500) based on hourly and daily sentiments across those time periods.
 
+ ![1styearproject - Google Chrome 30-03-2025 17_06_27](https://github.com/user-attachments/assets/eb22f56c-2969-493a-8efb-ac1fe93457f9)
+Scraped tweet data and in-built keyword based ALert system
+
 ## 2.Twitter Data extraction and sentiment analysis, then correlating it with market changes
 using Selenium we are able to scrape thru live twitter tweets data and then save it into a file (also we have a keyword alert system in it, which alerts us on certain keywords that were found in scraped tweets data) , further we use VADER for analysing sentiment of our extracted tweets and then we save it in file, we then finally proceed to correlate this data agiainst live market price fluctuations (in sp500), on daily and hourly basis.
 
 ## 3. Market Sentiment Dashboard:
 
 
-
-![Image](https://github.com/user-attachments/assets/8679f862-55c3-4966-9320-c86108564f82)
 
 
 
