@@ -8,9 +8,33 @@ Next, we incorporate **SEC earnings call transcripts** to analyze financial stat
 
 ## Features
 ## 1.Google News Extraction and Sentiment Analysis against Market Price fluctuations and Correlation:
- using scraping technique we get data from top financial sources articles like bloomberg and others,
- analyse their headings and apply sentiment analysisng function on them after cleaning the data,
+ using scraping technique (parsing the google news rss feed) we extract data from top financial sources articles like bloomberg and others,
+ analyse their headings and apply sentiment analysisng function with help of Nltk library in python on them after cleaning the data,
  save the sentiment data in a file,
- proceed to plot sentiment vs live market price changes based on hourly and daily sentiments across those time periods
+ we proceed to plot sentiment vs live market price changes (in s&p500) based on hourly and daily sentiments across those time periods.
 
-##2.
+## 2.Twitter Data extraction and sentiment analysis, then correlating it with market changes
+using Selenium we are able to scrape thru live twitter tweets data and then save it into a file (also we have a keyword alert system in it, which alerts us on certain keywords that were found in scraped tweets data) , further we use VADER for analysing sentiment of our extracted tweets and then we save it in file, we then finally proceed to correlate this data agiainst live market price fluctuations (in sp500), on daily and hourly basis.
+
+## 3. Market Sentiment Dashboard:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
