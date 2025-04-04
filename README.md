@@ -20,7 +20,7 @@ using Selenium we are able to scrape thru live twitter tweets data and then save
 
 
 
-
+![Image](https://github.com/user-attachments/assets/8679f862-55c3-4966-9320-c86108564f82)
 
 
 
